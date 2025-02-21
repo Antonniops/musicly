@@ -16,7 +16,7 @@ function LoginForm() {
 
     console.log({ email, password });
 
-    if (email == "antoniops0505@gmail.com" && password == "1234") {
+    if (email == "prueba@gmail.com" && password == "1234") {
        getToken().then(() => {
         return navigate('/discover')
        })
